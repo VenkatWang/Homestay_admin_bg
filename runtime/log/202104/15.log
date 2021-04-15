@@ -1,0 +1,1284 @@
+---------------------------------------------------------------
+[ 2021-04-15T17:00:19+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php
+[运行时间：0.031243s] [吞吐率：32.01req/s] [内存消耗：1,297.52kb] [文件加载：33]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T17:12:50+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/Index/lists
+[运行时间：0.027730s] [吞吐率：36.06req/s] [内存消耗：1,820.80kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T17:13:40+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.022501s] [吞吐率：44.44req/s] [内存消耗：1,820.92kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T17:20:38+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/show
+[运行时间：0.026758s] [吞吐率：37.37req/s] [内存消耗：1,738.59kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'show',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->show[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板文件不存在:D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\show.html[D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\library\think\view\driver\Think.php:82]
+---------------------------------------------------------------
+[ 2021-04-15T17:21:05+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.020906s] [吞吐率：47.83req/s] [内存消耗：1,615.59kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T17:32:28+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.031242s] [吞吐率：32.01req/s] [内存消耗：1,872.38kb] [文件加载：46]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+  0 => 'name',
+  1 => 0,
+) ]
+[ info ] [ LOG ] INIT File
+[ error ] [8]未定义变量: person[D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\runtime\temp\82c338089122c44c94e4582a8ee5348e.php:9]
+---------------------------------------------------------------
+[ 2021-04-15T17:34:00+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.025324s] [吞吐率：39.49req/s] [内存消耗：1,617.49kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+  0 => 'person',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T17:53:49+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.031030s] [吞吐率：32.23req/s] [内存消耗：1,824.04kb] [文件加载：42]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+  0 => 'person',
+  1 => 'skill',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T18:13:20+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.049773s] [吞吐率：20.09req/s] [内存消耗：2,423.48kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [1045]SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)[D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\library\think\db\Connection.php:295]
+---------------------------------------------------------------
+[ 2021-04-15T18:13:45+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.037755s] [吞吐率：26.49req/s] [内存消耗：2,630.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+  0 => 'person',
+  1 => 'skill',
+  2 => 'student',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000868s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test` [ RunTime:0.002421s ]
+[ sql ] [ SQL ] SELECT * FROM `test` [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2021-04-15T18:14:15+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.032828s] [吞吐率：30.46req/s] [内存消耗：2,630.01kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+  0 => 'person',
+  1 => 'skill',
+  2 => 'student',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001082s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `test` [ RunTime:0.000283s ]
+---------------------------------------------------------------
+[ 2021-04-15T21:22:52+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/lists
+[运行时间：0.042283s] [吞吐率：23.65req/s] [内存消耗：2,504.04kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'lists',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->lists[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\public/../application/index\view\index\lists.html [ array (
+  0 => 'person',
+  1 => 'skill',
+  2 => 'student',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001580s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test` [ RunTime:0.001748s ]
+[ sql ] [ SQL ] SELECT * FROM `test` [ RunTime:0.000497s ]
+---------------------------------------------------------------
+[ 2021-04-15T21:25:31+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/index
+[运行时间：0.042017s] [吞吐率：23.80req/s] [内存消耗：1,619.65kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T21:27:32+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/index
+[运行时间：0.057330s] [吞吐率：17.44req/s] [内存消耗：2,548.57kb] [文件加载：50]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019962s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test` [ RunTime:0.001792s ]
+[ sql ] [ SQL ] SELECT * FROM `test` [ RunTime:0.000386s ]
+[ error ] [8]Array to string conversion[D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php:16]
+---------------------------------------------------------------
+[ 2021-04-15T21:28:09+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/index
+[运行时间：0.065055s] [吞吐率：15.37req/s] [内存消耗：2,503.59kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018157s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test` [ RunTime:0.001872s ]
+[ sql ] [ SQL ] SELECT * FROM `test` [ RunTime:0.000435s ]
+---------------------------------------------------------------
+[ 2021-04-15T21:31:53+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/index
+[运行时间：0.069006s] [吞吐率：14.49req/s] [内存消耗：2,501.74kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '20144e1e-9d49-4d34-8fa7-d578fa2d326c',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.019792s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `test` [ RunTime:0.001443s ]
+[ sql ] [ SQL ] SELECT * FROM `test` [ RunTime:0.000691s ]
+---------------------------------------------------------------
+[ 2021-04-15T22:01:07+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/index/index/index
+[运行时间：0.042835s] [吞吐率：23.35req/s] [内存消耗：1,616.09kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:18:04+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.024178s] [吞吐率：41.36req/s] [内存消耗：1,612.55kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:24:02+08:00 ] 127.0.0.1 GET homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.040321s] [吞吐率：24.80req/s] [内存消耗：1,616.06kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'f1d8ba56-8c4b-420b-8df8-732bced30477',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:24:09+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.033566s] [吞吐率：29.79req/s] [内存消耗：1,611.02kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '04a0973c-2d02-4fc8-8317-eccad72a3611',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:25:43+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.025059s] [吞吐率：39.91req/s] [内存消耗：1,611.45kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '625afe6d-cbe1-4b16-91ca-e37c27772f3e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:26:18+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.036150s] [吞吐率：27.66req/s] [内存消耗：1,611.45kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '0',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '04a92a9b-1a37-41f4-92d3-fe95c4bc58d5',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:27:02+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.020412s] [吞吐率：48.99req/s] [内存消耗：1,612.40kb] [文件加载：39]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'e991ca8d-3ae5-4d9a-9afb-49dd70320246',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:52:59+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.040549s] [吞吐率：24.66req/s] [内存消耗：1,617.78kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '00172ba4-9f0f-4cbd-845f-61a9c71b00b0',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:53:04+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.034558s] [吞吐率：28.94req/s] [内存消耗：1,617.72kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '14',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'c4a9de51-7bb1-4620-bc50-7333aced1195',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:53:08+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.020106s] [吞吐率：49.74req/s] [内存消耗：1,617.78kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'c6e3a052-d4cf-4026-82d4-b05d5598a308',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:54:10+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.036607s] [吞吐率：27.32req/s] [内存消耗：1,617.93kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'ccbb26de-b2f7-4ec5-93ce-9478fe72fb9b',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:54:32+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.034279s] [吞吐率：29.17req/s] [内存消耗：1,622.17kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'cfe1c0e4-986f-4418-bea9-d79cefe1a934',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T22:54:37+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.035253s] [吞吐率：28.37req/s] [内存消耗：1,617.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '6d281f54-0162-44a1-bc6f-772b68b11493',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T23:00:29+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.042000s] [吞吐率：23.81req/s] [内存消耗：2,505.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'bb72ec6e-721a-4232-a249-6554f944aec5',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002063s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002715s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000453s ]
+---------------------------------------------------------------
+[ 2021-04-15T23:01:34+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.050043s] [吞吐率：19.98req/s] [内存消耗：2,504.90kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '31',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '163ea574-2949-4fd6-b3b9-c6d0a1054673',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020187s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002220s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admins' LIMIT 1 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2021-04-15T23:07:49+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.035403s] [吞吐率：28.25req/s] [内存消耗：2,512.26kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '31',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'bffd3d60-f422-481e-bf79-cfb321439971',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001504s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002094s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admins' LIMIT 1 [ RunTime:0.000394s ]
+---------------------------------------------------------------
+[ 2021-04-15T23:07:55+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.080045s] [吞吐率：12.49req/s] [内存消耗：2,559.21kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '5aedfea1-f423-46ec-a6ec-b644fae113b7',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022605s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002274s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000586s ]
+[ error ] [8]未定义数组索引: $password[D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php:40]
+---------------------------------------------------------------
+[ 2021-04-15T23:10:10+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.057334s] [吞吐率：17.44req/s] [内存消耗：2,559.21kb] [文件加载：51]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'af89965a-a750-4991-887c-f4a003852b74',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001359s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002391s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000409s ]
+[ error ] [8]未定义数组索引: $password[D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php:40]
+---------------------------------------------------------------
+[ 2021-04-15T23:11:34+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.034980s] [吞吐率：28.59req/s] [内存消耗：1,617.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '3736e433-534f-4e63-ac8f-8b266eb44401',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T23:11:41+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.032695s] [吞吐率：30.59req/s] [内存消耗：1,617.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '31',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '36e19f91-ff24-43b7-a90b-6a7dcf141a7d',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T23:11:43+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.020681s] [吞吐率：48.35req/s] [内存消耗：1,617.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '31',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '9462ef73-bd62-4214-bb26-9320d6b09a31',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T23:12:23+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.035831s] [吞吐率：27.91req/s] [内存消耗：1,622.17kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '15',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '1b085760-7fc7-4e08-ad03-edbecd33cb1c',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T23:12:29+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.035896s] [吞吐率：27.86req/s] [内存消耗：1,617.99kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'e37dbd92-e2c8-43b4-9009-487e90326e01',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-15T23:13:31+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.057312s] [吞吐率：17.45req/s] [内存消耗：2,505.11kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '9fb2181f-9db7-435e-925f-074016995a3d',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025433s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002211s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000426s ]
+---------------------------------------------------------------
+[ 2021-04-15T23:14:08+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.048117s] [吞吐率：20.78req/s] [内存消耗：2,504.90kb] [文件加载：47]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '31',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => 'db5d2bef-72cd-4487-948b-d8ff295337f8',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017751s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002331s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admins' LIMIT 1 [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2021-04-15T23:14:51+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.050507s] [吞吐率：19.80req/s] [内存消耗：2,512.22kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '31',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '8d2bd836-10e0-48db-b018-6fdf9ae18305',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admins',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015543s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002022s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admins' LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2021-04-15T23:14:56+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.043894s] [吞吐率：22.78req/s] [内存消耗：2,512.43kb] [文件加载：48]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '84dde642-e0e2-418a-aab1-ee352e1324c1',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001424s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001768s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000502s ]
