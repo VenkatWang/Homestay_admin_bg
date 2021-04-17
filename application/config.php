@@ -241,5 +241,6 @@ return [
         'list_rows' => 15,
     ],
     "salt" => 'vocalwang',
-    "defaultPassword" => "123456"
+    "defaultPassword" => "123456",
+    "jwtkey" => "vocalwang"
 ];

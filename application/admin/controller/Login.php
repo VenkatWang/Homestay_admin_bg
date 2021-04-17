@@ -6,6 +6,7 @@ namespace app\admin\controller;
 
 use think\Controller;
 use think\Db;
+use think\JWT;
 
 //1.验证权限
 //2.验证请求方式
@@ -39,9 +40,17 @@ class Login extends Controller
         if ($user) {
             $password = md5(crypt($data['password'], config("salt")));
             if ($password === $user['password']) {
+                $payload = [
+                    'id' => $user['id'],
+                    'username' => $user['username'],
+                    'avatar' => $user['avatar']
+                ];
+                $token = JWT::getToken($payload, config('jwtkey'));
                 return json([
                     "code" => 200,
-                    "msg" => "登录成功"
+                    "msg" => "登录成功",
+                    "token" => $token,
+                    "user" => $payload
                 ]);
             } else {
                 return json([

@@ -1,0 +1,1136 @@
+---------------------------------------------------------------
+[ 2021-04-16T14:59:28+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.068210s] [吞吐率：14.66req/s] [内存消耗：2,532.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '49496346-6d09-4ce4-abbd-13495c2a844e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012808s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.010801s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.002977s ]
+---------------------------------------------------------------
+[ 2021-04-16T15:02:30+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.046008s] [吞吐率：21.74req/s] [内存消耗：2,532.73kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'content-length' => '30',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate, br',
+  'host' => 'homestay',
+  'postman-token' => '6ebd3cd5-d32a-43d8-93d6-fb2936e6e62e',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.26.10',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023691s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001325s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000209s ]
+---------------------------------------------------------------
+[ 2021-04-16T15:27:15+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.014517s] [吞吐率：68.89req/s] [内存消耗：1,627.47kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T15:50:49+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.015329s] [吞吐率：65.24req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T15:50:49+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.044969s] [吞吐率：22.24req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025895s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000181s ]
+---------------------------------------------------------------
+[ 2021-04-16T15:51:00+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.012279s] [吞吐率：81.44req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T15:51:00+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.043566s] [吞吐率：22.95req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.024216s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001424s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000420s ]
+---------------------------------------------------------------
+[ 2021-04-16T15:59:36+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.014931s] [吞吐率：66.97req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T15:59:36+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.019022s] [吞吐率：52.57req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000813s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000809s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000220s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:00:44+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.011832s] [吞吐率：84.52req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:00:45+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.042162s] [吞吐率：23.72req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023414s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001420s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000212s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:02:07+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.018287s] [吞吐率：54.68req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:02:07+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.038916s] [吞吐率：25.70req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015081s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000656s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000151s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:06:03+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.016862s] [吞吐率：59.30req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:06:03+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.041344s] [吞吐率：24.19req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.020213s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001387s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000169s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:29:43+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.016094s] [吞吐率：62.14req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:29:43+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.019919s] [吞吐率：50.20req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001357s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000239s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:30:32+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.015075s] [吞吐率：66.34req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:30:32+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.038067s] [吞吐率：26.27req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016040s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001242s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000418s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:35:18+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.014515s] [吞吐率：68.89req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:35:18+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.043960s] [吞吐率：22.75req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.023880s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001641s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000202s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:47:10+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.015326s] [吞吐率：65.25req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:47:10+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.021513s] [吞吐率：46.48req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001438s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001297s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000217s ]
+---------------------------------------------------------------
+[ 2021-04-16T16:58:00+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.019208s] [吞吐率：52.06req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T16:58:00+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.021699s] [吞吐率：46.09req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001046s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000768s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000211s ]
+---------------------------------------------------------------
+[ 2021-04-16T18:07:07+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.029974s] [吞吐率：33.36req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T18:07:08+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.068670s] [吞吐率：14.56req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017110s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001707s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000616s ]
+---------------------------------------------------------------
+[ 2021-04-16T18:36:17+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.028337s] [吞吐率：35.29req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T18:36:17+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.061914s] [吞吐率：16.15req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.025147s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.002194s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000586s ]
+---------------------------------------------------------------
+[ 2021-04-16T19:02:09+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.042555s] [吞吐率：23.50req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T19:02:09+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.063655s] [吞吐率：15.71req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003762s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.004175s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000882s ]
+---------------------------------------------------------------
+[ 2021-04-16T22:09:57+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.017730s] [吞吐率：56.40req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T22:09:57+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.041545s] [吞吐率：24.07req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021124s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000253s ]
+---------------------------------------------------------------
+[ 2021-04-16T22:20:41+08:00 ] 127.0.0.1 OPTIONS homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.014913s] [吞吐率：67.06req/s] [内存消耗：1,627.01kb] [文件加载：40]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'sec-fetch-mode' => 'cors',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'origin' => 'http://localhost:8080',
+  'access-control-request-headers' => 'content-type',
+  'access-control-request-method' => 'POST',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2021-04-16T22:20:41+08:00 ] 127.0.0.1 POST homestay/homestay-admin/public/index.php/admin/login/check
+[运行时间：0.019256s] [吞吐率：51.93req/s] [内存消耗：2,534.40kb] [文件加载：49]
+[ info ] [ LANG ] D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'login',
+    2 => 'check',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://localhost:8080/',
+  'origin' => 'http://localhost:8080',
+  'content-type' => 'application/json;charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36',
+  'accept' => 'application/json, text/plain, */*',
+  'content-length' => '40',
+  'connection' => 'close',
+  'host' => 'homestay',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'admin',
+  'password' => '123456',
+)
+[ info ] [ RUN ] app\admin\controller\Login->check[ D:\phpstudy\phpstudy_pro\WWW\homestay\homestay-admin\application\admin\controller\Login.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001377s ] mysql:host=127.0.0.1;port=3306;dbname=homestay;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `username` = 'admin' LIMIT 1 [ RunTime:0.000211s ]
